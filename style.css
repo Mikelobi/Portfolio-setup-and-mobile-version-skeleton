@@ -10,7 +10,7 @@ main {
   padding: 0 12px;
 }
 
-.bar-nav {
+header {
   width: 375px;
   justify-content: space-between;
   display: flex;
@@ -18,7 +18,7 @@ main {
   padding-right: 24px;
 }
 
-.bar-nav img {
+nav  {
   width: 15px;
   height: 15px;
   align-self: center;
