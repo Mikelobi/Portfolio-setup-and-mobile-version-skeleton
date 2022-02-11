@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 
-.wrapper {
+main {
   width: 375px;
   height: 718px;
   margin: 0 auto;
@@ -24,15 +24,17 @@
   align-self: center;
 }
 
-.bar-nav h1 {
+.logo {
   font-size: 18px;
   align-items: center;
   width: 76px;
   height: 20px;
-  font-family: sans-serif;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   line-height: 20px;
   color: blue;
+  text-decoration: none;
 }
 
 .container {
@@ -41,13 +43,6 @@
   width: 375px;
   height: auto;
   background-image: url(image/header-shapes\ mobile.png);
-}
-
-section ul {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  width: 100px;
 }
 
 .one {
@@ -80,17 +75,24 @@ section ul {
   margin: 12px 0;
 }
 
-.link a {
+.two a {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 24px;
   font-size: 15px;
   text-decoration: none;
   font-weight: 400;
   color: blue;
+  margin: 10px 0;
 }
 
 .nest {
-  width: 200px;
+  width: 150px;
   justify-content: space-between;
   display: flex;
+  padding-inline-start: 0%;
+  list-style: none;
+}
+
+.two p {
+  margin: 5px 0;
 }
