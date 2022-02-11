@@ -8,15 +8,10 @@ This project is to setup a portfolio of mobile version skeleton main page
 
 ## Authors
 
-### 👤 Author1
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterbhandle](https://twitter.com/twitterhandle)
-- Linkedln: [Linkedln](https://linkedin.com/in/linkedinhandle)
-
-### 👤 Author2
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterbhandle](https://twitter.com/twitterhandle)
-- Linkedln: [Linkedln](https://linkedin.com/in/linkedinhandle)
+### 👤 Author
+- GitHub: [@githubhandle](https://github.com/Mikelobi)
+- Twitter: [@twitterbhandle](https://twitter.com/omulum)
+- Linkedln: [Linkedln](https://www.linkedin.com/in/ugochukwu-omulu-b9697663/)
 
 ## 🤝 Contributing
 
