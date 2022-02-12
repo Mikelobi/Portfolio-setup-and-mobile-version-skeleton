@@ -100,9 +100,8 @@ nav {
 .cards {
   margin: 20px auto;
   display: grid;
-  max-width: 375px;
-  grid-template-columns: repeat(auto, max(375px 1fr));
-  grid-gap: 40px;
+  grid-template-columns: repeat(auto, minmax(375px 1fr));
+  gap: 40px;
   justify-content: center;
 }
 
@@ -125,7 +124,7 @@ nav {
 .card-content {
   padding: 12px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 .detail-style1 {
@@ -191,7 +190,7 @@ nav {
 .about-section {
   display: grid;
   max-width: 375px;
-  grid-template-columns: repeat(auto, max(375px 1fr));
+  grid-template-columns: repeat(auto, minmax(375px 1fr));
   justify-content: center;
   gap: 30px;
 }
