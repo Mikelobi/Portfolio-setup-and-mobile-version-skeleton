@@ -101,7 +101,7 @@ nav {
   margin: 20px auto;
   display: grid;
   max-width: 375px;
-  grid-template-columns: repeat(auto, min-max(375px 1fr));
+  grid-template-columns: repeat(auto, max(375px 1fr));
   grid-gap: 40px;
   justify-content: center;
 }
@@ -109,12 +109,8 @@ nav {
 .card {
   padding: 16px;
   background: white;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 15px;
-}
-
-.card ima {
-  width: 200px;
 }
 
 .card-heading {
@@ -127,10 +123,9 @@ nav {
 }
 
 .card-content {
-    padding: 12px;
-    display: flex;
-    flex-direction: column;
-    
+  padding: 12px;
+  display: flex;
+  flex-direction: column;  
 }
 
 .detail-style1 {
@@ -151,11 +146,10 @@ nav {
 
 .tool1 li {
   font-size: 13px;
-  margin: 0 5px;
+  margin: 0;
   line-height: 16px;
   font-weight: 600;
   font-family: sans-serif;
-  margin: 0;
 }
 
 .tool2 {
@@ -186,7 +180,7 @@ nav {
   text-align: center;
   color: blue;
   letter-spacing: 0.03em;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   padding: 15px;
   background: white;
@@ -194,11 +188,10 @@ nav {
   text-decoration: none;
 }
 
-
 .about-section {
   display: grid;
   max-width: 375px;
-  grid-template-columns: repeat(auto, min-max(375px 1fr));
+  grid-template-columns: repeat(auto, max(375px 1fr));
   justify-content: center;
   gap: 30px;
 }
@@ -218,11 +211,11 @@ nav {
 }
 
 .about-detail {
- font-size: 16px;
- line-height: 24px;
- font-weight: normal;
- font-family: sans-serif;
- color: #344563; 
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #344563;
 }
 
 .language-detail {
@@ -237,7 +230,7 @@ nav {
   text-align: center;
   color: blue;
   letter-spacing: 0.03em;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   padding: 10px;
   background: white;
   border-radius: 10px;
@@ -276,12 +269,11 @@ nav {
   align-items: center;
   font-weight: bold;
   line-height: 24px;
-  color: #000000;
+  color: #000;
   font-style: normal;
 }
 
 .word:hover {
-
   text-decoration: underline;
 }
 
