@@ -100,7 +100,9 @@ nav {
 .cards {
   margin: 20px auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(375px 1fr));
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  width: 100%;
   gap: 40px;
   justify-content: center;
 }
@@ -193,7 +195,9 @@ nav {
 
 .about-section {
   display: grid;
-  grid-template-columns: repeat( auto-fill, minmax(375px 1fr) );
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  width: 100%;
   justify-content: center;
   gap: 30px;
 }
