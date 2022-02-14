@@ -96,3 +96,205 @@ nav {
 .two p {
   margin: 5px 0;
 }
+
+.cards {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  width: 100%;
+  gap: 40px;
+  justify-content: center;
+}
+
+.card {
+  padding: 16px;
+  background: white;
+  border: 1px solid #dfe1e6;
+  border-radius: 15px;
+}
+
+.card-heading {
+  font-style: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 40px;
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.card-content {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-style1 {
+  font-size: 15px;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #344563;
+  line-height: 24px;
+}
+
+.tool1 {
+  width: 220px;
+  display: flex;
+  padding-inline-start: 0%;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.fint {
+  color: rgb(170, 163, 163);
+}
+
+.tool1 li {
+  font-size: 13px;
+  margin: 0;
+  line-height: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.tool2 {
+  width: 200px;
+  display: flex;
+  padding-inline-start: 0%;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tool2 li {
+  background: rgb(230, 230, 252);
+  border-radius: 3px;
+  text-align: center;
+  padding: 4px 12px;
+}
+
+.tool2 a {
+  text-decoration: none;
+  color: blue;
+}
+
+.detail-style2 {
+  width: 124px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: blue;
+  letter-spacing: 0.03em;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  padding: 15px;
+  background: white;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 52px;
+}
+
+.info-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.about-social {
+  width: 150px;
+  justify-content: space-between;
+  display: flex;
+  padding-inline-start: 0%;
+  list-style: none;
+  padding: 5px 0;
+}
+
+.about-detail {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #344563;
+}
+
+.language-detail {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.language {
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: blue;
+  letter-spacing: 0.03em;
+  border: 1px solid #dfe1e6;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.language:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.lang {
+  display: flex;
+  justify-content: space-between;
+}
+
+.size {
+  width: 20px;
+  height: 20px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f7;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.space {
+  margin: 0 5px;
+}
+
+.word {
+  font-size: 20px;
+  align-items: center;
+  font-weight: bold;
+  line-height: 24px;
+  color: #000;
+  font-style: normal;
+}
+
+.word:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  padding: 15px 0;
+}
+
+.icon .space img {
+  width: 48px;
+}
